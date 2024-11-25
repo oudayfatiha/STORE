@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <string.h>
+
+#define MAX_TACHES 100
+
+// Structure de Tâche
+typedef struct {
+    char titre[100];
+    char description[200];
+    char date_echeance[11];  // Format: DD/MM/YYYY
+    char priorite[10];        // "High" ou "Low"
+} Tache;
